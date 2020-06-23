@@ -1,3 +1,10 @@
+不显示地址栏
+<van-popup show="{{ true }}" position="top">
+  <input name="address" placeholder="请输入地址"></input>
+  <input name="username" placeholder="请输入姓名"></input>
+</van-popup>
+
+正常显示地址栏
 <van-popup show="{{ true }}" position="center">
   <input name="address" placeholder="请输入地址"></input>
   <input name="username" placeholder="请输入姓名"></input>
